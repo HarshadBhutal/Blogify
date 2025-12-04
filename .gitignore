@@ -1,0 +1,56 @@
+# ------------------------
+# Python cache
+# ------------------------
+__pycache__/
+*.pyc
+*.pyo
+
+# ------------------------
+# Virtual environment
+# ------------------------
+.venv/
+
+# ------------------------
+# Environment variables (API keys)
+# ------------------------
+.env
+
+# ------------------------
+# ONNX model files
+# ------------------------
+*.onnx
+*.onnx.data
+
+# ------------------------
+# PyTorch / HuggingFace model files
+# ------------------------
+*.bin
+*.pt
+*.pth
+.cache/
+huggingface/
+hf_cache/
+
+# ------------------------
+# Google API credentials
+# ------------------------
+client_secret.json
+credentials.json
+token.json
+
+# ------------------------
+# Logs
+# ------------------------
+*.log
+
+# ------------------------
+# IDE config
+# ------------------------
+.vscode/
+.idea/
+
+# ------------------------
+# OS junk files
+# ------------------------
+.DS_Store
+Thumbs.db
