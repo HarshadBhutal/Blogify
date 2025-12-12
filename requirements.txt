@@ -1,0 +1,5 @@
+transformers
+onnxruntime
+sentence-transformers
+google-api-python-client
+dotenv
